@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-c,
+.btn-0 {
+  flex-grow: 2;
+}
+
+.calculator-button {
+  /* border-color: black; */
+  width: 75px;
+  min-height: 50px;
+  height: 75px;
+}
+
+#calculator-display-value {
+  color: white;
+  font-size: x-large;
+  margin-right: 10px;
+}
+
+.calculator-display-screen {
+  background-color: black;
+  min-height: 50px;
+}
+
+.calculator-row,
+.calculator-display-screen {
+  display: flex;
+}
+
+.calculator-display-screen {
+  justify-content: end;
+}
+
+.btn-math-symbol {
+  background-color: #df974c;
+  color: white;
+  font-size: 40px;
+}
+
+.btn-numeric,
+.btn-erase {
+  background-color: #d8d9db;
+  font-size: 40px;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
